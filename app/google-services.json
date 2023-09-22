@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "828148563734",
+    "firebase_url": "https://zappchat-a3e7b-default-rtdb.firebaseio.com",
+    "project_id": "zappchat-a3e7b",
+    "storage_bucket": "zappchat-a3e7b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828148563734:android:d8a5fed2e39b071fb95a37",
+        "android_client_info": {
+          "package_name": "com.bit.zappchat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMYmAs4Vmq1LHCVu2tc3IRt4Qbusqr6ok"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
