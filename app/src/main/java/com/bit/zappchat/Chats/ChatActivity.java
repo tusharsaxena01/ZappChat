@@ -1,4 +1,4 @@
-package com.bit.zappchat;
+package com.bit.zappchat.Chats;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;

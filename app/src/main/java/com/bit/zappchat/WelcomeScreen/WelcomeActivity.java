@@ -1,4 +1,4 @@
-package com.bit.zappchat;
+package com.bit.zappchat.WelcomeScreen;
 
 import androidx.appcompat.app.AppCompatActivity;
 

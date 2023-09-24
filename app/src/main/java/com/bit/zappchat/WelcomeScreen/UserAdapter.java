@@ -1,4 +1,4 @@
-package com.bit.zappchat;
+package com.bit.zappchat.WelcomeScreen;
 
 import android.content.Context;
 import android.content.Intent;
@@ -10,6 +10,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+
+import com.bit.zappchat.Chats.ChatActivity;
+import com.bit.zappchat.R;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.bit.zappchat;
+package com.bit.zappchat.Chats;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -10,6 +10,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.bit.zappchat.R;
 import com.google.firebase.auth.FirebaseAuth;
 
 import java.util.ArrayList;

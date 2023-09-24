@@ -1,4 +1,4 @@
-package com.bit.zappchat;
+package com.bit.zappchat.Chats;
 
 public class Message {
     String msgId;

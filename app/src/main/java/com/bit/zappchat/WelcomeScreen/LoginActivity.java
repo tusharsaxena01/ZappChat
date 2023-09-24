@@ -1,4 +1,4 @@
-package com.bit.zappchat;
+package com.bit.zappchat.WelcomeScreen;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
+import com.bit.zappchat.Chats.NavigationActivity;
 import com.bit.zappchat.databinding.ActivityLoginBinding;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;

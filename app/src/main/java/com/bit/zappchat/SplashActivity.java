@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.WindowManager;
 
+import com.bit.zappchat.WelcomeScreen.WelcomeActivity;
+
 public class SplashActivity extends AppCompatActivity {
 
 

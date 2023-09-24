@@ -1,9 +1,8 @@
-package com.bit.zappchat;
+package com.bit.zappchat.Chats;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -13,8 +12,11 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
 
+import com.bit.zappchat.R;
+import com.bit.zappchat.WelcomeScreen.User;
+import com.bit.zappchat.WelcomeScreen.UserAdapter;
+import com.bit.zappchat.WelcomeScreen.WelcomeActivity;
 import com.bit.zappchat.databinding.ActivityNavigationBinding;
-import com.bit.zappchat.databinding.ActivityRegisterBinding;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;

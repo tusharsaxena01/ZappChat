@@ -1,4 +1,4 @@
-package com.bit.zappchat;
+package com.bit.zappchat.WelcomeScreen;
 
 public class User {
     String uid;

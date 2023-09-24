@@ -25,16 +25,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ChatActivity"
+            android:name=".Chats.ChatActivity"
             android:exported="false" />
         <activity
-            android:name=".NavigationActivity"
+            android:name=".Chats.NavigationActivity"
             android:exported="false" />
         <activity
-            android:name=".RegisterActivity"
+            android:name=".WelcomeScreen.RegisterActivity"
             android:exported="false" />
         <activity
-            android:name=".WelcomeActivity"
+            android:name=".WelcomeScreen.WelcomeActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -43,7 +43,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".LoginActivity"
+            android:name=".WelcomeScreen.LoginActivity"
             android:exported="false" />
     </application>
 
