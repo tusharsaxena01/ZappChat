@@ -11,6 +11,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.WindowManager;
 
 import com.bit.zappchat.databinding.ActivityNavigationBinding;
 import com.bit.zappchat.databinding.ActivityRegisterBinding;
@@ -48,14 +49,24 @@ public class NavigationActivity extends AppCompatActivity {
                         userAdapter.add(user);
                     }
                 }
+                setProgress(false);
             }
 
             @Override
             public void onCancelled(@NonNull DatabaseError error) {
-
+                setProgress(false);
             }
         });
 
+    }
+
+    private void setProgress(boolean isProgress) {
+        if(isProgress){
+            getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_BLUR_BEHIND);
+            binding.pbLoading.setVisibility(View.VISIBLE);
+        }else{
+            binding.pbLoading.setVisibility(View.GONE);
+        }
     }
 
     @Override
